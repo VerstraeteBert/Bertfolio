@@ -124,3 +124,24 @@ img {
     width: 200px;
     border-radius: 50%;
 }
+
+.social-icons a {
+    border-bottom: 0;
+    fill: var(--link-color)
+}
+
+.social-icons a:hover {
+    border-bottom: 0;
+}
+
+/**
+ FOOTER
+ */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
