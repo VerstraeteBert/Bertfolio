@@ -6,14 +6,17 @@
     --link-hover: #eee;
 }
 
-
 html {
+    height: 100%;
     font-family: var(--font-body);
     background-color: var(--bg-color);
     color: var(--body-text)
 }
 
 body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 150px;
     font-size: 1.25rem;
     line-height: 1.8;
     letter-spacing: .4px;
@@ -106,6 +109,12 @@ img {
     }
 }
 
+@media (min-width: 600px) {
+    .hero-about {
+        margin: 2rem 1rem
+    }
+}
+
 @media (min-width: 1301px) {
     .hero-about {
         width: 52%;
@@ -143,5 +152,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 150px;
+    position: relative;
+    left: 0 ; right: 0; bottom: 0;
+    width: 100%;
 }
-
