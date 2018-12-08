@@ -14,22 +14,13 @@
     <?php wp_head() ?>
 </head>
 <body>
+<main>
 <header>
-    <!-- TODO Dynamic nav -->
     <nav class="header-nav">
-        <ul>
-            <li class="nav-item">
-                <a>about</a>
-            </li>
-            <li class="nav-item">
-                <a>work</a>
-            </li>
-            <li class="nav-item">
-                <a>blog</a>
-            </li>
-            <li class="nav-item">
-                <a>contact</a>
-            </li>
-        </ul>
+           <?php
+           wp_nav_menu( $arg = [
+               'theme_location' => 'primary'
+           ]);
+           ?>
     </nav>
 </header>
