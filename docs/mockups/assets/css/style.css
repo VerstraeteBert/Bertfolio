@@ -98,7 +98,7 @@ img {
 
 @media (max-width: 799px) {
     .hero {
-        margin-top: 0;
+        margin-top: 2vh;
     }
 
     .hero-about {
@@ -108,8 +108,8 @@ img {
 
 @media (min-width: 1301px) {
     .hero-about {
-        width: 50%;
-        margin: 2rem 1rem
+        width: 52%;
+        margin: 2rem 1rem;
     }
 }
 
