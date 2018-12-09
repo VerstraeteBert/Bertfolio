@@ -13,12 +13,10 @@
             With passion for delivering maintainable and scalable code and <a href="/work">building cool things</a> in general.
             Currently learning Golang and generally kicking ass. Dive into my mind and adventures on <a href="/blog">my blog</a>.
         </p>
-        <br/>
         <p>
-            <a href="/contact">Drop me a line</a> if you have any questions about my work, want to collaborate on a project, or just chat.
+            Don't hesitate to <a href="/contact">contact me</a> if you have any questions about my work, want to collaborate on a project, or just chat.
             You can follow me on stuff too, if that's your thing.
         </p>
-        <br/>
     </div>
 </section>
 

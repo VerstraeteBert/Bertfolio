@@ -61,6 +61,7 @@ table {
     --body-text: #ababab;
     --font-body: avenir next,Arial,sans-serif;
     --link-hover: #eee;
+    --accent: #ececec;
 }
 
 html {
@@ -82,6 +83,10 @@ main {
     flex:1;
     display: flex;
     flex-direction: column;
+}
+
+p {
+    padding-bottom: 2vh;
 }
 
 a {
@@ -172,21 +177,18 @@ img {
 @media (max-width: 799px) {
     .hero {
         margin-top: 2vh;
-    }
-
-    .hero-about {
         width: 100%;
     }
 }
 
 @media (min-width: 1301px) {
-    .hero-about {
+    .hero {
         width: 52%;
     }
 }
 
 @media (min-width: 800px) and (max-width:1300px) {
-    .hero-about {
+    .hero {
         width: 75%;
     }
 }
@@ -232,4 +234,27 @@ img {
 
 .error p {
     padding-top: 10px;
+}
+
+/**
+ ABOUT PAGE
+ */
+.about-left {
+    align-self: flex-start;
+}
+
+.about-title {
+    font-size: 2rem;
+}
+
+.hr {
+    content: '';
+    height: 2px;
+    background-color: var(--accent);
+    border: 0;
+    margin: 2vh 0 3vh;
+}
+
+.hr-half {
+    width: 50%;
 }
