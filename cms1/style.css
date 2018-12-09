@@ -1,3 +1,60 @@
+/*
+Theme Name: Portfolio Bert Custom Theme
+Author: Bert Verstraete
+Description: Custom Theme created for portfolio use
+textdomain: portfolioB
+*/
+
+/**
+    Normalize
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**
+    Portfolio CSS
+ */
 :root {
     --bg-color: #232323;
     --link-color: #808080;
@@ -7,19 +64,22 @@
 }
 
 html {
-    height: 100%;
     font-family: var(--font-body);
     background-color: var(--bg-color);
     color: var(--body-text)
 }
 
 body {
-    min-height: 100%;
-    position: relative;
-    padding-bottom: 150px;
     font-size: 1.25rem;
     line-height: 1.8;
     letter-spacing: .4px;
+     display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+main {
+    flex:1
 }
 
 a {
@@ -51,19 +111,21 @@ strong {
     z-index: 90;
 }
 
-.nav-item {
+.menu-item {
     display: inline;
     color: var(--link-color);
 }
 
-
-.nav-item:after {
+.menu-item:after {
     content: '\00B7';
-    padding-right:5px;
 }
 
-.nav-item:last-child:after {
+.menu-item:last-child:after {
     content: '';
+}
+
+.menu-item a {
+    padding-right: 5px;
 }
 
 /**
@@ -99,6 +161,12 @@ img {
     opacity: 0.8;
 }
 
+@media (min-width: 600px) {
+    .hero-about {
+        margin: 2rem 1rem
+    }
+}
+
 @media (max-width: 799px) {
     .hero {
         margin-top: 2vh;
@@ -109,23 +177,15 @@ img {
     }
 }
 
-@media (min-width: 600px) {
-    .hero-about {
-        margin: 2rem 1rem
-    }
-}
-
 @media (min-width: 1301px) {
     .hero-about {
         width: 52%;
-        margin: 2rem 1rem;
     }
 }
 
 @media (min-width: 800px) and (max-width:1300px) {
     .hero-about {
         width: 75%;
-        margin: 2rem 1rem
     }
 }
 
@@ -143,6 +203,10 @@ img {
     border-bottom: 0;
 }
 
+.social-icons i {
+    font-size: 24px;
+}
+
 /**
  FOOTER
  */
@@ -151,8 +215,5 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 150px;
-    position: relative;
-    left: 0 ; right: 0; bottom: 0;
-    width: 100%;
+    height: 200px;
 }
