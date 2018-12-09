@@ -6,7 +6,7 @@
 <div class="hero section" id="content">
     <div class="left">
         <img id="avatar" class="about-avatar" src="<?php bloginfo('template_url') ?>/images/meMyselfAndI.jpg" alt="A beautiful picture of Bert, he's handsome, right?">
-        <h1 class=section-title">About Me.</h1>
+        <h1 class="section-title">About me</h1>
         <hr class="hr-half hr">
         <p>
             <strong>Hi, I'm Bert Verstraete, a full stack developer and applied informatics student </strong> based in Belgium.
