@@ -350,3 +350,13 @@ em {
 blockquote {
     display: block;
 }
+
+/**
+  COMMENTS
+ */
+h3.comments-title {
+    font-size: 1em;
+}
+.comment-meta {
+    font-size: 0.8em;
+}
