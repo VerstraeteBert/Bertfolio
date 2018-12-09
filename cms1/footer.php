@@ -4,14 +4,14 @@
 <?php wp_footer(); ?>
 </main>
 <footer class="footer">
-    <div class="footer-text">made with ❤️ and mint 🍵</div>
     <div class="social-icons">
-       <!-- TODO Dynamic footer icons -->
-        <a href="https://github.com/VerstraeteBert">
-            <img height="24" width="24" src="<?php bloginfo('template_url') ?>/images/github.svg"/>
-        </a>
+        <?php
+        wp_nav_menu( $arg = [
+            'theme_location' => 'footer'
+        ]);
+        ?>
     </div>
-
+    <div class="footer-text">made with ❤️ and mint 🍵</div>
 </footer>
 </body>
 </html>

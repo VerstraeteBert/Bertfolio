@@ -10,7 +10,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home | Bertfolio</title>
     <!-- TODO Dynamic title -->
-    <link href="<?php bloginfo('template_url') ?>/style.css" type="text/css" rel="stylesheet">
     <?php wp_head() ?>
 </head>
 <body>

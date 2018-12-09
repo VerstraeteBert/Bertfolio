@@ -111,20 +111,20 @@ strong {
     z-index: 90;
 }
 
-.page_item {
+.menu-item {
     display: inline;
     color: var(--link-color);
 }
 
-.page_item:after {
+.menu-item:after {
     content: '\00B7';
 }
 
-.page_item:last-child:after {
+.menu-item:last-child:after {
     content: '';
 }
 
-.page_item a {
+.menu-item a {
     padding-right: 5px;
 }
 
@@ -201,6 +201,10 @@ img {
 
 .social-icons a:hover {
     border-bottom: 0;
+}
+
+.social-icons i {
+    font-size: 24px;
 }
 
 /**
