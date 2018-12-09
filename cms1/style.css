@@ -243,11 +243,11 @@ img {
 /**
  ABOUT PAGE
  */
-.about-left {
+.left {
     align-self: flex-start;
 }
 
-.about-title {
+.section-title {
     font-size: 2rem;
 }
 
@@ -261,4 +261,32 @@ img {
 
 .hr-half {
     width: 50%;
+}
+
+/**
+    Blog Summary
+ */
+.section-title {
+    font-weight: 500;
+}
+
+.section-subtitle {
+    font-size: 1.40rem;
+    font-weight: 500;
+}
+
+.post-summary {
+   padding-top: 2vh;
+}
+
+.post-summary-date {
+    font-size: .9rem;
+}
+.post-summary a {
+    font-size: 1.25rem;
+    color: var(--body-text);
+}
+
+.hr-quarter {
+    width: 25%;
 }

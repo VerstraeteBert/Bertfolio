@@ -4,9 +4,9 @@
 ?>
 
 <div class="hero section" id="content">
-    <div class="about-left">
+    <div class="left">
         <img id="avatar" class="about-avatar" src="<?php bloginfo('template_url') ?>/images/meMyselfAndI.jpg" alt="A beautiful picture of Bert, he's handsome, right?">
-        <h1 class="about-title">About Me.</h1>
+        <h1 class=section-title">About Me.</h1>
         <hr class="hr-half hr">
         <p>
             <strong>Hi, I'm Bert Verstraete, a full stack developer and applied informatics student </strong> based in Belgium.
@@ -28,18 +28,18 @@
         </p>
         <p>
             During my previous internship (Summer 2018) with
-            <strong><a href="https://www.slideshare.net/slideshow/embed_code/key/Aw20E20kVizrjB" title="Letter of recommendation Teamleader">Teamleader (LOR)</a></strong>.
+            <a href="https://www.slideshare.net/slideshow/embed_code/key/Aw20E20kVizrjB" title="Letter of recommendation Teamleader">Teamleader (LOR)</a>.
             Where I learned a lot about <strong>agile</strong> development, writing <strong>SOLID</strong> Object Oriented code and <strong>Domain Driven Design</strong>.
         </p>
         <p>
-            Next year during my last school semester I'll be working for <strong><a href="https://www.zentrick.com">Zentrick</a></strong> as a full stack software engineer in <strong>New York</strong>.
+            Next year during my last school semester I'll be working for <a href="https://www.zentrick.com">Zentrick</a> as a full stack software engineer in <strong>New York</strong>.
             Tacking huge engineering challenges where throughput and latency are key.
         </p>
         <p>
             When I'm not working, I'm either building cool things, <strong>running</strong> or <strong>climbing</strong> in my local bouldering gym.
         </p>
         <p>
-            <a href="/contact">Drop me a line</a> if you have any questions about my work, want to collaborate on a project, or just chat. You can follow me on stuff too, if that's your thing.</p>
+            Don't hesitate to <a href="/contact">contact me</a> if you have any questions about my work, want to collaborate on a project, or just chat. You can follow me on stuff too, if that's your thing.</p>
         <p>
             👋
         </p>
