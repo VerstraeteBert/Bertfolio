@@ -39,8 +39,7 @@
             When I'm not working, I'm either building cool things, <strong>running</strong> or <strong>climbing</strong> in my local bouldering gym.
         </p>
         <p>
-            <a href="/contact">Drop me a line</a> if you have any questions about my work, want to collaborate on a project, or just chat. You can follow me on stuff too, if that's your thing.
-        </p>
+            <a href="/contact">Drop me a line</a> if you have any questions about my work, want to collaborate on a project, or just chat. You can follow me on stuff too, if that's your thing.</p>
         <p>
             👋
         </p>
