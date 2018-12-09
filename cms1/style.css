@@ -79,7 +79,9 @@ body {
 }
 
 main {
-    flex:1
+    flex:1;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -90,7 +92,15 @@ a {
 }
 
 a:hover {
-    color: var(--link-hover);
+    color: var(--link-hover)
+}
+
+#content a {
+    border-bottom: 2px solid var(--link-color)
+}
+
+#content a:hover {
+    border-bottom: 2px solid var(--link-hover)
 }
 
 strong {
@@ -147,14 +157,6 @@ strong {
 .hero {
     margin-top: 5vh;
     font-size: 1.2rem;
-}
-
-.hero a {
-    border-bottom: 2px solid var(--link-color)
-}
-
-.hero a:hover {
-    border-bottom: 2px solid var(--link-hover)
 }
 
 img {
@@ -216,4 +218,18 @@ img {
     justify-content: center;
     align-items: center;
     height: 200px;
+}
+
+/**
+ ERROR PAGE
+ */
+#content {
+    flex: 1;
+}
+.error-title {
+    font-size: 3rem;
+}
+
+.error p {
+    padding-top: 10px;
 }
