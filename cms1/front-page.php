@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<section class="section hero" id="content">
+<section class="content-wrapper hero section" id="content">
     <div class="hero-avatar">
         <img id="avatar" src="<?php bloginfo('template_url') ?>/images/meMyselfAndI.jpg" alt="A beautiful picture of Bert, he's handsome, right?">
     </div>

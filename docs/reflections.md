@@ -19,3 +19,7 @@ Then came the time to actually start looking into WordPress. Guided by the lovel
 Starting with the theme details, settings, ect.
 // TODO permalink settings
 
+
+## Notes
+Installed rt-reading-time-wp
+

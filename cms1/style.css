@@ -24,8 +24,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -65,6 +63,12 @@ table {
     --highlight-background: #343434;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: var(--font-body);
     background-color: var(--bg-color);
@@ -72,7 +76,7 @@ html {
 }
 
 body {
-    font-size: 1.25rem;
+    font-size: 16px;
     line-height: 1.8;
     letter-spacing: .4px;
      display:flex;
@@ -105,6 +109,10 @@ a:hover {
     color: var(--link-hover)
 }
 
+div {
+    display: block;
+}
+
 #content a {
     border-bottom: 2px solid var(--link-color)
 }
@@ -115,6 +123,12 @@ a:hover {
 
 strong {
     font-weight: bold;
+}
+
+.wrap {
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 2% 5%;
 }
 
 /**
@@ -129,6 +143,8 @@ strong {
     position: sticky;
     top: 0;
     z-index: 90;
+
+    font-size: 1.2rem;
 }
 
 .menu-item {
@@ -166,7 +182,7 @@ strong {
 
 .hero {
     margin-top: 5vh;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 img {
@@ -180,20 +196,24 @@ img {
 }
 
 @media (max-width: 799px) {
-    .hero {
+    .content-wrapper {
         margin-top: 2vh;
+        width: 100%;
+    }
+
+    .section {
         width: 100%;
     }
 }
 
 @media (min-width: 1301px) {
-    .hero {
+    .content-wrapper {
         width: 52%;
     }
 }
 
 @media (min-width: 800px) and (max-width:1300px) {
-    .hero {
+    .content-wrapper {
         width: 75%;
     }
 }
@@ -249,7 +269,7 @@ img {
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .hr {
@@ -279,6 +299,10 @@ img {
     font-weight: 500;
 }
 
+.blog-verbose-body {
+    font-size: 1.2rem;
+}
+
 .section-subtitle {
     font-size: 1.40rem;
     font-weight: 500;
@@ -292,7 +316,7 @@ img {
     font-size: .9rem;
 }
 .post-summary a {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--body-text);
 }
 
@@ -314,7 +338,7 @@ h3 {
 #content h1,
 #content h2,
 #content h3 {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: left;
     margin-bottom: .5em;
 }
@@ -360,3 +384,97 @@ h3.comments-title {
 .comment-meta {
     font-size: 0.8em;
 }
+
+/**
+ Contact Page
+ */
+.normal-page .rt-reading-time {
+    display: none !important;
+}
+
+input, textarea {
+    border-radius: 10px !important;
+    border-color: var(--accent); !important;
+    background-color: var(--highlight-background) !important;
+    color: var(--font-body) !important;
+    padding: 2rem;
+    margin: 2rem 4rem;
+}
+
+label {
+    color: var(--body-text)
+}
+
+button[type="submit"], input[type="button"]{
+    background-color: var(--highlight-background) !important;
+    color: var(--font-body) !important;
+    border-radius: 5px !important;
+}
+
+button[type="submit"]:hover, input[type="button"]:hover{
+    color: var(--link-hover) !important;
+}
+
+/**
+    Archive work
+ */
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.work-teaser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 950px) {
+    .work-teaser {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .work-description {
+        padding-left: 0 !important;
+    }
+}
+
+.work-thumbnail-area, .work-description {
+   flex: 0 0 calc(50% - 2rem);
+}
+
+.work-screenshot {
+    border: 1px solid var(--accent);
+    max-width: 100%;
+}
+
+.work-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.work-link-no-border {
+    border-bottom: none !important;
+}
+
+.work-title {
+    color: var(--body-text);
+    padding-top: 0!important;
+    margin-top: 0!important;
+}
+
+.top-bottom-margin {
+    margin: 2rem 0;
+}
+

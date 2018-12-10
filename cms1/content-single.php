@@ -3,5 +3,4 @@
     <div class="post-full-date"><?php the_date(); ?></div>
     <?php the_content(); ?>
     <hr class="hr hr-half">
-
 </div>
