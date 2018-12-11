@@ -79,7 +79,7 @@ body {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: .4px;
-     display:flex;
+    display:flex;
     flex-direction:column;
     min-height:100vh;
     width: 100%;
@@ -92,7 +92,6 @@ main {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 p {
     padding-bottom: 2vh;
@@ -126,16 +125,43 @@ strong {
 }
 
 .wrap {
-    margin: 0 auto;
-    margin-top: 3%;
+    margin: 3% auto 0;
     padding: 2% 5%;
 }
 
+img {
+    opacity: 0.8;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: .25em;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+h1 {
+    display: block;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+h3 {
+    display: block;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+em {
+    font-style:italic;
+}
+
 /**
- HEADER AND NAV
+ Header and nav
  */
 .header-nav {
-    width:100%;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -165,11 +191,7 @@ strong {
 }
 
 /**
- HOME
- */
-
-/**
- HERO
+ Home
  */
 .section {
     display:flex;
@@ -183,10 +205,6 @@ strong {
 .hero {
     margin-top: 5vh;
     font-size: 1.15rem;
-}
-
-img {
-    opacity: 0.8;
 }
 
 @media (min-width: 600px) {
@@ -237,14 +255,23 @@ img {
 }
 
 /**
- FOOTER
+ Footer
  */
+
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 200px;
+}
+
+.footer img {
+    opacity: 1;
+}
+
+.footer .menu-item:after {
+    content: '';
 }
 
 /**
@@ -327,13 +354,6 @@ img {
 /**
     Full blog post
  */
-h1,
-h2,
-h3 {
-    margin-bottom: .25em;
-    text-align: left;
-    line-height: 1.2em;
-}
 
 #content h1,
 #content h2,
@@ -343,25 +363,9 @@ h3 {
     margin-bottom: .5em;
 }
 
-h1 {
-    display: block;
-    font-size: 1.7em;
-    font-weight: 600;
-}
-
-h3 {
-    display: block;
-    font-size: 1.4em;
-    font-weight: 600;
-}
-
 .rt-reading-time,
 .post-full-date {
     font-size: 1rem;
-}
-
-em {
-    font-style:italic;
 }
 
 #content blockquote {
@@ -376,7 +380,7 @@ blockquote {
 }
 
 /**
-  COMMENTS
+  Comments
  */
 h3.comments-title {
     font-size: 1em;
@@ -478,3 +482,9 @@ button[type="submit"]:hover, input[type="button"]:hover{
     margin: 2rem 0;
 }
 
+/**
+    Disqus
+ */
+.dcl-disqus-thread {
+    width: 100%;
+}

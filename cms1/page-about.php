@@ -4,8 +4,8 @@
 ?>
 
 <div class="content-wrapper section" id="content">
+    <img id="avatar" class="about-avatar" src="<?php bloginfo('template_url') ?>/images/meMyselfAndI.jpg" alt="A beautiful picture of Bert, he's handsome, right?">
     <div class="left">
-        <img id="avatar" class="about-avatar" src="<?php bloginfo('template_url') ?>/images/meMyselfAndI.jpg" alt="A beautiful picture of Bert, he's handsome, right?">
         <h1 class="section-title">About me</h1>
         <hr class="hr-half hr">
         <p>
