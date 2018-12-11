@@ -20,7 +20,7 @@ get_header();
                     <a class="work-link-no-border" href="<?php the_permalink(); ?>">
                         <h2 class="work-title"><?php the_title(); ?></h2>
                     </a>
-                        <p><?php the_excerpt(); ?></p>
+                        <?php the_excerpt(); ?>
                         <a href="<?php the_permalink(); ?>">Read more</a>
                 </div>
             </div>
