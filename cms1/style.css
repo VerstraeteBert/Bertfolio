@@ -503,6 +503,18 @@ button[type="submit"]:hover, input[type="button"]:hover{
     margin: 2rem 0;
 }
 
+.work-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.work-links a {
+    margin-right: 10px;
+}
+
+
 /**
     Disqus
  */

@@ -12,16 +12,36 @@ get_header();
                 ?>
                 <div class="work-teaser">
                     <div class="work-thumbnail">
-                        <a class="work-link-no-border" href="<?php the_permalink(); ?>">
                             <img class="work-screenshot" alt="thumbnail for work showcase" src="<?php the_post_thumbnail_url(); ?>">
-                        </a>
                     </div>
                     <div class="work-description top-bottom-margin">
-                        <a class="work-link-no-border" href="<?php the_permalink(); ?>">
                             <h2 class="work-title"><?php the_title(); ?></h2>
-                        </a>
+
+                            <?php if ( get_field('work_timestamp') ): ?>
+                                <span> <?php the_field('work_timestamp') ?> </span>
+                            <?php endif; ?>
+
                             <?php the_excerpt(); ?>
-                            <a href="<?php the_permalink(); ?>">Read more</a>
+
+                            <?php if ( get_field('skills_used') ): ?>
+                                <em>Skills used: <?php the_field('skills_used') ?></em>
+                            <?php endif; ?>
+
+                            <?php if ( get_field('blog_link') || get_field('github_link') || get_field('demo_link') ): ?>
+                                <span class="work-links">
+                                    <?php if ( get_field('blog_link') ): ?>
+                                        <a href="<?php the_field('blog_link') ?>">Read more</a>
+                                    <?php endif; ?>
+
+                                    <?php if ( get_field('github_link') ): ?>
+                                        <a href="<?php the_field('github_link') ?>">Source Code</a>
+                                    <?php endif; ?>
+
+                                    <?php if ( get_field('demo_link') ): ?>
+                                        <a href="<?php the_field('demo_link') ?>">Demo</a>
+                                    <?php endif; ?>
+                                </span>
+                            <?php endif; ?>
                     </div>
                 </div>
             <?php
