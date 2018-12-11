@@ -60,3 +60,15 @@ function remove_image_size_attributes( $html ) {
 
 // Remove image size attributes from post thumbnails
 add_filter( 'post_thumbnail_html', 'remove_image_size_attributes' );
+
+function work_redirect_post() {
+  $queried_post_type = get_query_var('post_type');
+  if ( is_single() && 'work' ==  $queried_post_type ) {
+    wp_redirect( home_url(), 301 );
+    exit;
+  }
+}
+
+// Work type doesn't have a single post page, redirect to home
+add_action( 'template_redirect', 'work_redirect_post' );
+
