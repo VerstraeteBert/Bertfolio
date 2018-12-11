@@ -11,7 +11,7 @@
         <p>
             <strong>Hi I'm <a href="/about">Bert Verstraete</a>, a full stack developer and applied informatics student </strong> based in Belgium.
             With passion for delivering maintainable and scalable code and <a href="/work">building cool things</a> in general.
-            Currently learning Golang and generally kicking ass. Dive into my mind and adventures on <a href="/blog">my blog</a>.
+            Dive into my mind and adventures on <a href="/blog">my blog</a>.
         </p>
         <p>
             Don't hesitate to <a href="/contact">contact me</a> if you have any questions about my work, want to collaborate on a project, or just chat.

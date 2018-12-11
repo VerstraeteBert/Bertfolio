@@ -11,7 +11,7 @@
         ]);
         ?>
     </div>
-    <div class="footer-text">made with ❤️ and mint 🍵</div>
+    <div class="footer-text">made with ❤️ and 🍵 in Bruges</div>
 </footer>
 </body>
 </html>
