@@ -13,7 +13,7 @@ get_header();
             <div class="work-teaser">
                 <div class="work-thumbnail">
                     <a class="work-link-no-border" href="<?php the_permalink(); ?>">
-                        <img class="work-screenshot" src="<?php the_post_thumbnail(); ?>
+                        <img class="work-screenshot" src="<?php the_post_thumbnail_url(); ?>">
                     </a>
                 </div>
                 <div class="work-description top-bottom-margin">
