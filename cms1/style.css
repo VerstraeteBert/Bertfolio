@@ -336,7 +336,7 @@ em {
 }
 
 .post-summary {
-   padding-top: 2vh;
+    padding-top: 2vh;
 }
 
 .post-summary-date {
@@ -408,7 +408,7 @@ h3.comments-title {
 
 input, textarea {
     border-radius: 10px !important;
-    border-color: var(--accent); !important;
+    border-color: var(--accent) !important;
     background-color: var(--highlight-background) !important;
     color: var(--font-body) !important;
     padding: 2rem;
@@ -462,7 +462,7 @@ button[type="submit"]:hover, input[type="button"]:hover{
 }
 
 .work-thumbnail-area, .work-description {
-   flex: 0 0 calc(50% - 2rem);
+    flex: 0 0 calc(50% - 2rem);
 }
 
 .work-screenshot {
