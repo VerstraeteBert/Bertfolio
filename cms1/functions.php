@@ -31,7 +31,7 @@ function create_work_post_type() {
 register_post_type( 'work',
     array(
         'labels' => array(
-            'name' => __( 'Work display post' ),
+            'name' => __( 'work' ),
         ),
         'public' => true,
         'has_archive' => true,

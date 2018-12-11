@@ -9,7 +9,7 @@
     </div>
     <div class="hero-about">
         <p>
-            <strong><a href="/about">Hi, I'm Bert Verstraete</a>, a full stack developer and applied informatics student </strong> based in Belgium.
+            <strong>Hi I'm <a href="/about">Bert Verstraete</a>, a full stack developer and applied informatics student </strong> based in Belgium.
             With passion for delivering maintainable and scalable code and <a href="/work">building cool things</a> in general.
             Currently learning Golang and generally kicking ass. Dive into my mind and adventures on <a href="/blog">my blog</a>.
         </p>
