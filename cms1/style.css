@@ -379,6 +379,16 @@ blockquote {
     display: block;
 }
 
+#content img {
+    display: block;
+    margin: auto;
+}
+
+#content figure {
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
 /**
   Comments
  */
