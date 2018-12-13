@@ -2,7 +2,7 @@
     Bert Verstraete    
     CMS   
     2018-2019  
-    Bachlor Applied Computer Science  
+    Bachelor Applied Computer Science  
     Howest College University
 ## Deployment
     // TODO
