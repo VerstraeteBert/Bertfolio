@@ -1,5 +1,5 @@
 <?php
-/* Template Name:  Template Page Content */
+/* Template Name: Template Archive Work Content */
 get_header();
 ?>
     <div class="section" id="content">

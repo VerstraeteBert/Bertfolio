@@ -61,6 +61,11 @@ function remove_image_size_attributes( $html ) {
 // Remove image size attributes from post thumbnails
 add_filter( 'post_thumbnail_html', 'remove_image_size_attributes' );
 
+/**
+ * Redirects post detail page to home page
+ *
+ * @return void
+ */
 function work_redirect_post() {
   $queried_post_type = get_query_var('post_type');
   if ( is_single() && 'work' ==  $queried_post_type ) {

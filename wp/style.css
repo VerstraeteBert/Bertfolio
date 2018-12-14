@@ -215,12 +215,25 @@ header {
 
 .hero {
     margin-top: 5vh;
-    font-size: 1.15rem;
+}
+
+@media (max-width: 599px) {
+    .hero {
+        font-size: 16px;
+    }
+
+    .hero-about {
+        padding-top: 3vh;
+    }
 }
 
 @media (min-width: 600px) {
     .hero-about {
         margin: 2rem 1rem
+    }
+
+    .hero {
+        font-size: 1.15rem;
     }
 }
 
