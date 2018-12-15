@@ -1,13 +1,13 @@
-#Reflections CMS
+# Reflections CMS
 
-##WordPress
+## WordPress
  CMS's aren't really my thing, however I did want to to hone my CSS and designing skills. 
  Turns out this is the perfect assignment for this.   
   
   Afterwards I want to migrate this WP site to a static site generator [gohugo](https://gohugo.io/), which is great static site generator written in golang. In my opinion this is a much better choice for developers, there's just a lot more flexibility, but it's not as non-developer friendly as WP.
   It basically builds static pages from your content files (markdown) which you can host on Amazon S3, which is a lot cheaper than a WP/Drupal alternative and has the advantage of speed (no server side renedering needed).
   
-  ###Mockups
+  ### Mockups
  
  I started out by scouring the web for cool designs, picking out my favourite ones and combining their best features in  terms of design and functionality.  
  
